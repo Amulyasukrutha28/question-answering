@@ -10,22 +10,14 @@ Assetization: Link
 
 Setup Instructions
 1. Clone the Repository
-bash
-Copy code
 git clone https://github.com/yourusername/textbook-retrieval-system.git
 cd textbook-retrieval-system
 2. Create and Activate a Virtual Environment
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
 4. Download NLTK Data
-python
-Copy code
 import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -41,8 +33,6 @@ rank_bm25
 transformers
 To install these dependencies, use the following command:
 
-bash
-Copy code
 pip install PyMuPDF nltk sentence-transformers faiss-cpu numpy rank_bm25 transformers
 Running the System
 1. Extract Text from Textbooks
